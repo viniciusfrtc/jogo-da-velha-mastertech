@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jogo div {
+  width: 5em;
+  height: 5em;
+  background-size: 5em 5em;
+}
+
+.jogo {
+  display: flex;
+  width: 18em;
+  flex-wrap: wrap;
+}
+
+#casa5 {
+  border: 0.2em solid black;
+  background-size: 5em 5em;
+}
+
+#casa2, #casa8 {
+  border-left: 0.2em solid black;
+  border-right:  0.2em solid black;
+}
+
+#casa4, #casa6 {
+  border-top: 0.2em solid black;
+  border-bottom: 0.2em solid black;
+}
